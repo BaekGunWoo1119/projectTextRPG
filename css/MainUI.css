@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'JSArirang';
+    src: url('./font/JSArirang.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JSArirang-HON';
+    src: url('./font/JSArirangHON.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'JSArirang';
+}
+        
+#MainTitle{
+    padding-top:15%;
+    padding-bottom:15%;
+    font-size:8vw;
+}
+
+#Start{
+    background-color: rgb(207, 144, 27);
+    display: inline-block;
+    width: 50%;
+    padding: 2%;
+    margin-bottom: 6%;
+    font-size:3vw;
+    font-weight: bolder;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #FFC192;
+}
+
+ul li{
+    list-style: none;
+    border: 0;
+    float: left;
+}
+        
+.p-all{
+    width: 50%;
+}
+
+.p-main{
+    width: 100%;
+}
+
+.p-list{
+    width: 7%;
+}
+
+
+.p-all img{
+    width:100%;
+}
+
+.name{
+    margin: 4%;
+    padding: 1%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color:black;
+    font-size:3vw;
+}
+
+.point{
+    width:100%;
+    padding-bottom: 90%;
+    display: inline-block;
+    background-color:none;
+}
+
+.point.h{
+    background: linear-gradient( to bottom, rgb(221, 32, 32), red );
+}
+
+.point.s{
+    background-color:rgb(50, 205, 153);
+    background: linear-gradient( to bottom, rgb(50, 205, 153), green );
+}
+
+.mission{
+    background-color: rgb(207, 144, 27);
+    display: inline-block;
+    width: 14%;
+    padding: 2%;
+    font-size:2vw;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.stats-head{
+    width: 6%;
+    margin-bottom:2% ;
+    font-size:2.5vw;
+    border: 0;
+    background-color: beige;
+    border-radius: 1%;
+}
+
+header{
+    width: 100%;
+    padding: 1%;
+    display: block;
+}
+
+section{
+    clear: both;
+    padding: 3%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+section p, section a{
+    font-size:3.5vw;
+}
