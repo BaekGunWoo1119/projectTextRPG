@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
+        <!-- 기본 형식 -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UI/UX</title>
-    <link href = "css/MainUI.css" rel="stylesheet">
+        <!-- 페이지 타이틀 -->
+    <title>UI/UX</title>    
+        <!-- 자체 개발 css -->
+    <link href = "css/MainDesign.css" rel="stylesheet">
+        <!-- 제이쿼리 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!-- 파이 스크립트 -->
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
 </head>
 <body>
 	<div>
-        <header id="top_menu">
+        <header id="TopMenu">
             <!-- 탑 메뉴 InnerHTML -->
         </header>
         <script src="js/innerHTML.js"></script>
-        <script>importPage('top_menu');</script>
-        <script src="js/healthbar.js"></script>
-        <section id="content">
+        <script>importPage('TopMenu');</script>
+        <section id="MainContent">
             <!-- 콘텐츠 InnerHTML -->
         </section>
-        <script>importPage('content');</script>
+        <script>importPage('MainContent');</script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-        <script src="./js/scriptAnime.js"></script>
+        <script src="js/TextAnime.js"></script>
     </div>
 </body>
 </html>

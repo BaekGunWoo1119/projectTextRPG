@@ -82,14 +82,77 @@ ul li{
     background-color:none;
 }
 
-.point.h{
-    background: linear-gradient( to bottom, rgb(221, 32, 32), red );
+#health{
+    background: red;
+    width:40%;
+    height:1.5vh;
 }
 
-.point.s{
-    background-color:rgb(50, 205, 153);
-    background: linear-gradient( to bottom, rgb(50, 205, 153), green );
+#health::-webkit-progress-bar {
+    background: red;
+    width:40%;
+    height:1.5vh;
+}  
+
+#health::-webkit-progress-value {  
+    background: red;
+    width:40%;
+    height:1.5vh;
+}  
+
+#health::-moz-progress-bar {  
+    background: red;
+    width:40%;
+    height:1.5vh;
+}  
+
+#power{
+    background:yellow;
+    width:40%;
+    height:1.5vh;
 }
+
+#power::-webkit-progress-bar {  
+    background:yellow;
+    width:40%;
+    height:1.5vh;
+}  
+
+#power::-webkit-progress-value {  
+    background:yellow;
+    width:40%;
+    height:1.5vh;
+}  
+
+#power::-moz-progress-bar {  
+    background:yellow;
+    width:40%;
+    height:1.5vh;
+}  
+
+#mind{
+    background:blue;
+    width:40%;
+    height:1.5vh;
+}
+
+#mind::-webkit-progress-bar {  
+    background:blue;
+    width:40%;
+    height:1.5vh;
+}  
+
+#mind::-webkit-progress-value {  
+    background:blue;
+    width:40%;
+    height:1.5vh;
+}  
+
+#mind::-moz-progress-bar {  
+    background:blue;
+    width:40%;
+    height:1.5vh;
+}  
 
 .mission{
     background-color: rgb(207, 144, 27);
